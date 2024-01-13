@@ -24,6 +24,14 @@ trusted_clients =
 
 [history]
 
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
 [update_manager client z_calibration]
 type = git_repo
 path = ~/klipper_z_calibration
